@@ -2,6 +2,9 @@
 ### Problem:
 Candidates are registered in a subject. Once registered, they become students and are assigned a teacher and roll number. Since some students achieve some things throughout the semester, they will be rewarded 10 points in the end. Some students are punished for some reason and are deducted 5 marks. If punished, the achievement grace marks are not added. When results are declared, they are calculated with all things considered. The program displays results.
 
+![MA104](https://user-images.githubusercontent.com/76884959/172964022-504314b0-1c60-4d68-9478-7ed1fde24074.png)
+
+
 ### Functions of class:
 #### Abstract class Registration:
 Defines the attributes that are needed for a candidate to register. Contains an abstract method which displays the information.
@@ -22,6 +25,8 @@ Inherits Examprofile class and implements Achievement. It has a constructor to i
 When a new object is initiated, the constructor assigns the values to the attributes, most of which are inherited from other classes. The method `calculatedResult()` uses control statements to calculate the final marks of the student based on the attributes. The method `displayResult()` uses inherited methods `assignProf()`, `displayStudent()`, `showScore()`, `calculatedResult()` to display the final result.
 
 ### Output:
+![Screenshot from 2022-06-10 05-12-33](https://user-images.githubusercontent.com/76884959/172964002-3da7f82a-9cd9-4ef4-b0a0-e7e39ca80e03.png)
 
->#### Note:
+
+#### Note:
 >For more info visit MA104.pdf
