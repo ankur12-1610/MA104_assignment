@@ -25,7 +25,8 @@ Inherits Examprofile class and implements Achievement. It has a constructor to i
 When a new object is initiated, the constructor assigns the values to the attributes, most of which are inherited from other classes. The method `calculatedResult()` uses control statements to calculate the final marks of the student based on the attributes. The method `displayResult()` uses inherited methods `assignProf()`, `displayStudent()`, `showScore()`, `calculatedResult()` to display the final result.
 
 ### Output:
-![Screenshot from 2022-06-10 05-12-33](https://user-images.githubusercontent.com/76884959/172964002-3da7f82a-9cd9-4ef4-b0a0-e7e39ca80e03.png)
+
+![Screenshot from 2022-06-10 11-14-27](https://user-images.githubusercontent.com/76884959/172998517-aa470c4d-367e-4680-8d2f-ae9f31f7c314.png)
 
 
 #### Note:
